@@ -2,10 +2,10 @@
 const mongoose = require('mongoose');
 
 // short cut for creating new schema
-const schema = mongoose.schema;
+const Schema = mongoose.Schema;
 
 // create model schema for what a campground should be.
-const CampgroundSchema = new schema({
+const CampgroundSchema = new Schema({
     title: String,
     price: String,
     description: String,
